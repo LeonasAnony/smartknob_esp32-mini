@@ -1,0 +1,69 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,(6.0.8)*%
+%TF.CreationDate,2022-10-29T03:41:05+02:00*%
+%TF.ProjectId,view_base,76696577-5f62-4617-9365-2e6b69636164,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Paste,Top*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (6.0.8)) date 2022-10-29 03:41:05*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 Aperture macros list*
+%AMRoundRect*
+0 Rectangle with rounded corners*
+0 $1 Rounding radius*
+0 $2 $3 $4 $5 $6 $7 $8 $9 X,Y pos of 4 corners*
+0 Add a 4 corners polygon primitive as box body*
+4,1,4,$2,$3,$4,$5,$6,$7,$8,$9,$2,$3,0*
+0 Add four circle primitives for the rounded corners*
+1,1,$1+$1,$2,$3*
+1,1,$1+$1,$4,$5*
+1,1,$1+$1,$6,$7*
+1,1,$1+$1,$8,$9*
+0 Add four rect primitives between the rounded corners*
+20,1,$1+$1,$2,$3,$4,$5,0*
+20,1,$1+$1,$4,$5,$6,$7,0*
+20,1,$1+$1,$6,$7,$8,$9,0*
+20,1,$1+$1,$8,$9,$2,$3,0*%
+%AMRotRect*
+0 Rectangle, with rotation*
+0 The origin of the aperture is its center*
+0 $1 length*
+0 $2 width*
+0 $3 Rotation angle, in degrees counterclockwise*
+0 Add horizontal line*
+21,1,$1,$2,0,0,$3*%
+G04 Aperture macros list end*
+%ADD10RoundRect,0.250000X-0.883883X0.176777X0.176777X-0.883883X0.883883X-0.176777X-0.176777X0.883883X0*%
+%ADD11RoundRect,0.250000X-1.697056X-0.636396X-0.636396X-1.697056X1.697056X0.636396X0.636396X1.697056X0*%
+%ADD12RoundRect,0.200000X0.335876X0.053033X0.053033X0.335876X-0.335876X-0.053033X-0.053033X-0.335876X0*%
+%ADD13RotRect,2.100000X2.999999X225.000000*%
+%ADD14RotRect,0.800000X1.600000X225.000000*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,U1*%
+X115398959Y-47079720D03*
+D11*
+X118227386Y-53160838D03*
+D10*
+X113772614Y-48706066D03*
+X112146268Y-50332411D03*
+%TD*%
+D12*
+%TO.C,R4*%
+X109283363Y-48883363D03*
+X108116637Y-47716637D03*
+%TD*%
+D13*
+%TO.C,J3*%
+X104898162Y-44486828D03*
+X99524151Y-49860839D03*
+D14*
+X105145649Y-48340559D03*
+X104261766Y-49224442D03*
+X103377882Y-50108326D03*
+%TD*%
+M02*

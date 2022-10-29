@@ -14,4 +14,4 @@ possible to dynamically create and adjust the feel of detents and endstops.
 - Accelerometer
 
 # Handheld Version
-Handheld Mod in branch [handheld](https://github.com/LeonasAnony/smartknob_esp32-mini/tree/handheld
+Handheld Mod in branch [handheld](https://github.com/LeonasAnony/smartknob_esp32-mini/tree/handheld)
